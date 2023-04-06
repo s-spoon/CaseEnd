@@ -8,7 +8,7 @@ function Content() {
     <div className='p-4'>
       <Row gutter={[8, 8]}>
         {products?.map((item, index) => (
-          <Col xs={12} sm={12} md={8} lg={6}>
+          <Col key={index} xs={12} sm={12} md={8} lg={6}>
             <ContentItem data={item} />
           </Col>
         ))}

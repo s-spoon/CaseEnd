@@ -1,13 +1,8 @@
-import { useEffect } from 'react';
 import Header from '../../components/Header';
 import Content from './Content';
 import SideBar from './SideBar';
-import getData from '../../actions';
 
 function MarketPlace() {
-  useEffect(() => {
-    getData();
-  }, []);
   return (
     <>
       <Header />
