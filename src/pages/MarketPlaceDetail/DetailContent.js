@@ -11,6 +11,7 @@ function DetailContent({ data = {} }) {
             height='800'
             data-xblocker='passed'
             style={{ visibility: 'visible' }}
+            alt="slug"
           />
         </div>
         <div className='flex flex-col overflow-y-auto overflow-x-hidden max-h-96 py-1 pr-2 w-24 sm:w-36'>
@@ -21,6 +22,7 @@ function DetailContent({ data = {} }) {
             height='800'
             data-xblocker='passed'
             style={{ visibility: 'visible' }}
+            alt="slug"
           />
         </div>
       </div>

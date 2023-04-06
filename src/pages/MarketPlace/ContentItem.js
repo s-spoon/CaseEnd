@@ -13,6 +13,7 @@ function ContentItem({ data = {} }) {
           href={data?.url}
           data-xblocker='passed'
           style={{ visibility: 'visible' }}
+          alt="slug"
         />
         <div className='flex flex-col flex-shrink-0'>
           <div className='flex px-1 text-xs'>
