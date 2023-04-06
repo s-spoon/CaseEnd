@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 function MarketPlaceDetail() {
   const { id } = useParams();
   const data = useSelector((store) =>
-    store?.products?.results?.find((item) => item?.id == Number(id))
+    store?.products?.results?.find((item) => item?.id === Number(id))
   );
   return (
     <>
