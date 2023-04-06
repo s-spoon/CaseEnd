@@ -7,7 +7,7 @@ function DetailSideBar({ data }) {
           <a
             class='px-2 py-1 mr-2 mb-2 button'
             href={data?.url}
-            target='_blank'
+            target='_blank' rel='noreferrer'
           >
             Website
           </a>
@@ -19,14 +19,14 @@ function DetailSideBar({ data }) {
           <a
             class='px-2 py-1 text-xs mr-2 mb-2 button'
             href={data?.url}
-            target='_blank'
+            target='_blank' rel='noreferrer'
           >
             Taobao
           </a>
           <a
             class='px-2 py-1 text-xs mr-2 mb-2 button'
             href={`https://www.superbuy.com/en/page/buy?url=${data?.url}`}
-            target='_blank'
+            target='_blank' rel='noreferrer'
           >
             Superbuy
           </a>

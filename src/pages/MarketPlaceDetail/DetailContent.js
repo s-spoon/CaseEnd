@@ -34,7 +34,7 @@ function DetailContent({ data = {} }) {
           <a
             className='ml-auto max-w-xs truncate'
             href={data?.url}
-            target='_blank'
+            target='_blank' rel='noreferrer'
           >
             {data?.url}
           </a>
