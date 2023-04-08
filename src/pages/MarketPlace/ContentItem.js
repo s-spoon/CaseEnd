@@ -40,11 +40,11 @@ function ContentItem({ data = {} }) {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <path
-                  d='M1 1 H 99 V4 H1 V1'
+                  d='M1 1 H 100 V4 H1 V1'
                   className='fill-transparent stroke-gray-800 stroke-1'
                 ></path>
                 <path
-                  d='M2 2 H 38.60606060606061 V3 H2 V2'
+                  d={`M2 2 H ${data?.cpu_height*0.6} V3 H2 V2`}
                   className='fill-gray-800'
                 ></path>
               </svg>
@@ -61,10 +61,10 @@ function ContentItem({ data = {} }) {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <path
-                  d='M1 1 H 99 V4 H1 V1'
+                  d='M1 1 H 100 V4 H1 V1'
                   className='fill-transparent stroke-gray-800 stroke-1'
                 ></path>
-                <path d='M2 2 H 2 V3 H2 V2' className='fill-gray-800'></path>
+                <path d={`M2 2 H ${data?.gpu_length*0.3} V3 H2 V2`} className='fill-gray-800'></path>
               </svg>
               <p className='w-[5ch] flex-shrink-0 text-right'>
                 {data?.gpu_length}MM
